@@ -1,0 +1,556 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* start hero section style */
+.hero-section {
+  width: 90%;
+  max-width: 1100px;
+  margin: 80px auto;
+}
+
+.hero_description {
+  float: left;
+  width: 55%;
+}
+
+.hero_description h1 {
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.hero_description p {
+  color: #465056cd;
+  font-size: 18px;
+  margin-bottom: 30px;
+  max-width: 500px;
+}
+
+.btn-start,
+.btn-learn {
+  padding: 20px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-start {
+  background-color: black;
+  color: white;
+  margin-right: 10px;
+}
+
+.btn-learn {
+  background-color: white;
+  color: #0b1720;
+  border: 2px solid #e6eef3;
+}
+
+.hero_image {
+  float: right;
+  width: 40%;
+}
+
+.hero_image img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+/* end hero section style */
+/* start why us section */
+.why_us {
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto 80px;
+  text-align: center;
+}
+
+.why_us h1 {
+  margin: 0 0 12px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.info {
+  margin: 0 0 36px;
+  color: #5b6b75;
+  font-size: 18px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grids {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.card {
+  float: left;
+  width: 30%;
+  background: #eef6ff;
+  padding: 36px 24px;
+  border-radius: 16px;
+  margin-right: 3.333%;
+}
+
+.card h3 {
+  margin: 12px 0 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.card p {
+  margin: 0;
+  color: #455a64;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.icon {
+  width: 72px;
+  height: 72px;
+  border-radius: 14px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-dot {
+  width: 30px;
+  height: 30px;
+  background: white;
+  border-radius: 6px;
+}
+
+.icon-dot.circle {
+  border-radius: 50%;
+}
+
+.icon-dot.square {
+  border-radius: 6px;
+}
+
+.equipment {
+  background: #e6f0ff;
+}
+
+.equipment .icon {
+  background: #1867ff;
+}
+
+.trainers {
+  background: #e9fbef;
+}
+
+.trainers .icon {
+  background: #06a86f;
+}
+
+.time {
+  background: #f3e9ff;
+}
+
+.time .icon {
+  background: #8b00ff;
+}
+
+/* end why us section */
+/* start service section */
+.service {
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto 80px;
+}
+
+.whyus_img {
+  float: left;
+  width: 45%;
+  padding-right: 20px;
+}
+
+.whyus_img img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.gym_service {
+  float: right;
+  width: 50%;
+  padding-left: 30px;
+}
+
+.gym_service h2 {
+  margin-top: 6px;
+  margin-bottom: 22px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.grp_classes,
+.Guidance,
+.Recovery {
+  border-left: 4px solid #0b1720;
+  padding-left: 18px;
+  margin-bottom: 26px;
+}
+
+.grp_classes {
+  margin-top: 6px;
+}
+
+.grp_classes h4,
+.Guidance h4,
+.Recovery h4 {
+  margin: 0 0 8px 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.grp_classes p,
+.Guidance p,
+.Recovery p {
+  margin: 0;
+  color: #455a64;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* end service section */
+/* members section start */
+.members {
+  background: #f7f8fa;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.members h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0 0 8px;
+  color: #0b1720;
+}
+
+.subtext {
+  color: #455a64;
+  font-size: 16px;
+  margin: 0 0 36px;
+}
+
+.memberbox {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto 40px;
+}
+
+.member {
+  float: left;
+  width: 30%;
+  margin: 0 1.666%;
+  background: white;
+  padding: 18px 18px 20px 18px;
+  border-radius: 12px;
+  text-align: left;
+  min-height: 180px;
+}
+
+.member.blue {
+  background: #e8f4ff;
+  border: 1px solid #d1e8ff;
+}
+
+.member.green {
+  background: #e9fbef;
+  border: 1px solid #d2f6df;
+}
+
+.member.purple {
+  background: #f6ecff;
+  border: 1px solid #efdff8;
+}
+
+.member img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 12px;
+  display: block;
+}
+
+.member h4 {
+  margin: 6px 0 0 0;
+  font-size: 17px;
+  font-weight: 700;
+  color: #0b1720;
+}
+
+.member .role {
+  margin: 2px 0 10px 0;
+  color: #455a64;
+  font-size: 14px;
+}
+
+.member .quote {
+  clear: both;
+  margin-top: 6px;
+  color: #2e3a43;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.stats {
+  width: 90%;
+  max-width: 1200px;
+  margin: 36px auto 0;
+  background: #eef6fb;
+  border: 1px solid #e2eef6;
+  border-radius: 14px;
+  padding: 24px 18px;
+}
+
+.stat {
+  float: left;
+  width: 23%;
+  margin: 0 1%;
+  text-align: center;
+  background: transparent;
+  border-radius: 6px;
+}
+
+.stat h3 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  color: #0b1720;
+}
+
+.stat p {
+  margin: 8px 0 0 0;
+  color: #455a64;
+  font-size: 14px;
+}
+
+/* members section end */
+/* start join_fitcore section */
+.join_fitcore {
+  background: #ffffff;
+  padding: 80px 0 120px;
+  text-align: center;
+}
+
+.join_fitcore h2 {
+  margin: 0 0 12px;
+  font-size: 36px;
+  font-weight: 700;
+  color: #0b1720;
+}
+
+.join_fitcore .lead {
+  margin: 0 0 36px;
+  color: #455a64;
+  font-size: 16px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.formcard {
+  width: 62%;
+  margin: 0 auto;
+  background: #f7f8fa;
+  border-radius: 10px;
+  padding: 48px 56px;
+  box-shadow: 0 6px 18px rgba(10, 20, 30, 0.04);
+}
+
+.row {
+  margin-bottom: 22px;
+  text-align: left;
+}
+
+.half {
+  float: left;
+  width: 48%;
+}
+
+.half+.half {
+  margin-left: 4%;
+}
+
+.full {
+  width: 100%;
+}
+
+.row label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #0b1720;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+  width: 100%;
+  padding: 16px 18px;
+  border: 1px solid #e1e6e9;
+  border-radius: 8px;
+  background: #fbfcfd;
+  font-size: 15px;
+  color: #1f2a30;
+  outline: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+select:focus,
+textarea:focus {
+  border-color: #0e0f10;
+  border-width: 2px;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 18px 20px;
+  background: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 6px;
+}
+
+.note {
+  margin: 18px 0 0;
+  text-align: center;
+  color: #7a8a91;
+  font-size: 13px;
+}
+
+/* end join_fitcore section */
+/* start footer */
+.footer {
+  background: #0e1a24;
+  color: #9fb0bb;
+  padding: 60px 80px;
+  font-size: 15px;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.col {
+  float: left;
+}
+
+.brand {
+  width: 46%;
+}
+
+.links {
+  width: 22%;
+  padding-left: 30px;
+}
+
+.contact {
+  width: 22%;
+  padding-left: 30px;
+}
+
+.logo {
+  color: #fff;
+  font-size: 36px;
+  margin: 0 0 18px;
+  font-weight: 700;
+  letter-spacing: .4px;
+}
+
+.desc {
+  margin: 0 0 22px;
+  line-height: 1.7;
+  color: #9fb0bb;
+  font-size: 16px;
+  max-width: 460px;
+}
+
+.social span {
+  display: inline-block;
+  margin-right: 22px;
+  color: #9fb0bb;
+  font-size: 15px;
+}
+
+.heading {
+  color: #fff;
+  font-size: 20px;
+  margin: 0 0 18px;
+  font-weight: 700;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  margin-bottom: 12px;
+  color: #9fb0bb;
+}
+
+.label {
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.text {
+  color: #9fb0bb;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.rule {
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.04);
+  margin: 30px 0;
+}
+
+.copyright {
+  float: left;
+  color: #83959e;
+  font-size: 14px;
+}
+
+.meta {
+  float: right;
+  color: #83959e;
+  font-size: 14px;
+}
+
+.meta span {
+  display: inline-block;
+  margin-left: 22px;
+}
+/* end footer section */
+.clear {
+  clear: both;
+}
